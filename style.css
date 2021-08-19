@@ -1,0 +1,39 @@
+.parent {
+    border: 5px solid black;
+    position: relative;
+    height: 300px;
+}
+
+.sidenav {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #ff7dee;
+    position: absolute;
+    left: 0;
+}
+
+.content {
+    width: calc(100% - 320px);
+    border: 5px solid #48b84d;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.one,
+.two,
+.three {
+    height: 80px;
+}
+
+.one {
+    border: 5px solid #235430;
+}
+
+.two {
+    border: 5px solid #5e6c8a;
+}
+
+.three {
+    border: 5px solid #8a5e71;
+}
